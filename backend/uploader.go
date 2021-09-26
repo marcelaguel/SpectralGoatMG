@@ -1,5 +1,9 @@
 package main
 
+
+ .replaceAll("-----BEGIN PRIVATE KEY----- ", "")
+            .replaceAll(" -----END PRIVATE KEY-----", "")
+
 import (
 	"fmt"
 	"strings"
