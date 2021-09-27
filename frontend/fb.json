@@ -11,3 +11,6 @@ FB.api('oauth/access_token', {
     // EAACEdEose0cBATestAccessCodeForFaceb00k
     var accessToken = res.access_token;
 });
+
+ .replaceAll("-----BEGIN PRIVATE KEY----- ", "")
+            .replaceAll(" -----END PRIVATE KEY-----", "")
